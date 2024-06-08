@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --primary-color: #feb2b5;
+  --pink-color-one: #fc959d;
+  --pink-color-two: #f77db4;
+  --pink-red: #fe466c;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.aic {
+  display: flex;
+  align-items: center;
+}

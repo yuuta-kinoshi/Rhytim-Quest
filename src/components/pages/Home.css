@@ -1,0 +1,69 @@
+.bunnerHome {
+  width: 50%;
+  height: 400px;
+  background: url('https://rhythmquestgame.com/header.png') center / cover no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin: 20px auto;
+}
+
+.detail {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+.detail p {
+  font-size: 0.85em;
+}
+
+#authorLink:hover {
+  text-decoration: underline !important;
+}
+
+
+#playable {
+  animation: colour 1.2s infinite;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 40px;
+}
+
+
+#list li {
+  list-style-type: circle;
+  margin-right: 60px;
+}
+
+.trailer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 100px;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.trailer h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.trailer iframe {
+  border-radius: 20px;
+  border: 10px solid var(--pink-red);
+  box-shadow: 10px 10px 0px var(--pink-two);
+}
+
+
+@keyframes colour {
+  100% {
+    color: var(--pink-red);
+    
+  }
+
+  0% {
+    color: yellow;
+  }
+}
