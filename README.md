@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 # Rhytim-Quest
 # Rhytim-Quest
 # Rhytim-Quest
+# rhythim-quest
